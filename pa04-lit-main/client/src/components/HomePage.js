@@ -97,7 +97,7 @@ export default function HomePage(props) {
 
                 </div>
                 <div id = "second-row"> 
-                    <p id="question-count"> {questionsList.length} {questionsList.length === 1 ? "question" : "questions"}</p>
+                    {/* <p id="question-count"> Sort By </p> */}
                     <div id = "button-group">
                         <button className="button-group-class" id="newest-button" onClick={() => {setSorting("newest"); changeContent("homePage")}}>Newest</button>
                         <button className="button-group-class" id="active-button" onClick={() => {setSorting("active"); changeContent("homePage")}}>Active</button>

@@ -82,7 +82,7 @@ export default function QuestionCard(props) {
             <div style={{width: "50%"}}> 
 
                 
-                <button className="link-text" style={{fontSize: "18px", textAlign: "left"}} onClick={() => ansOnClick(question)}> {question.title}</button>
+                <button className="question-link-text" style={{fontSize: "18px", textAlign: "left"}} onClick={() => ansOnClick(question)}> {question.title}</button>
                 <p className="question-summary"> {question.summary} </p>
                 <div className="tags-container">
 
